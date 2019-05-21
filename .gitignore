@@ -22,5 +22,4 @@ __pycache__/
 .vscode/*
 
 # Image Data
-data/downloads
 data/__pycache__/
