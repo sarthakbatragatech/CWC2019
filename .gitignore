@@ -20,3 +20,6 @@ __pycache__/
 
 # Visual Studio Code
 .vscode/*
+
+# Image Data
+data/downloads
