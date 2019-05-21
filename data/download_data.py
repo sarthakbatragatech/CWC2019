@@ -4,7 +4,9 @@ from squads import all_squads
 
 response = google_images_download.googleimagesdownload()
 
+# Download image data for all 10 teams
 for squad in all_squads:
+    # Each player's data is stored in a folder named after him
     for player in squad:
 
         arguments = {
@@ -17,3 +19,9 @@ for squad in all_squads:
 
         absolute_image_paths = response.download(arguments)
         # print(arguments)
+
+        print(f'Finished downloading data for {player}')
+
+    print(f'Finished downloading data for {squad}')
+
+print("Finished downloading data for all squads")
