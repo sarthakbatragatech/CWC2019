@@ -11,7 +11,7 @@ for squad in all_squads:
 
         arguments = {
             'keywords': player + ' cricketer',
-            'limit': 5,
+            'limit': 25,
             'print_urls': True,
             'image_directory': player
             # 'no_download': 'nd'
