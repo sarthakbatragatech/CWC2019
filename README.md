@@ -1,6 +1,6 @@
 # CWC 2019
 
-A Deep Learning Image Classifier that takes an input image and predicts the cricket player in it. Currently optimized for a single player.
+A Deep Learning Image Classifier that takes an input image and predicts the cricket player in it. Currently optimized for a single player. I have excluded the notebook for the classifier for now as the accuracy results were a little underwhelming. Until I do so, you can build of the scripts that collect the required data.
 
 ## Running the Project
 
